@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: product-api
+  config:
+    import: "configserver:http://localhost:9002"
+
+message: hello world
